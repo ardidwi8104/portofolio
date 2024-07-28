@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import "./App.css";
+import Ardi from "./Ardi.jpg"; // Correctly imported image
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
       {/* Jumbotron */}
       <section className="jumbotron text-center">
         <div className="profil">
-          <img src="img/Ardi.jpg" alt="Ardi" width="200px" />
+          <img src={Ardi} alt="Ardi" width="200px" /> {/* Using the imported image */}
           <h1 className="display-4">Ardi Dwi Saputra</h1>
           <p className="lead">Mahasiswa Informatika.</p>
         </div>
@@ -73,7 +74,7 @@ function App() {
             {[1, 2, 3, 4, 5, 6].map((project) => (
               <div className="col-md-4 mb-3" key={project}>
                 <div className="card">
-                  <img src="img/Ardi.jpg" className="card-img-top" alt="Ardi" />
+                  <img src={Ardi} className="card-img-top" alt="Ardi" /> {/* Using the imported image */}
                   <div className="card-body">
                     <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                   </div>
