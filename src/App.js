@@ -62,7 +62,7 @@ function App() {
                 <div className="card">
                   <img src={Ardi} className="card-img-top" alt="Ardi" /> {/* Using the imported image */}
                   <div className="card-body">
-                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p className="card-text">Belum ada</p>
                   </div>
                 </div>
               </div>
