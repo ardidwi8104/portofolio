@@ -24,7 +24,7 @@ function App() {
       {/* Jumbotron */}
       <section className="jumbotron text-center">
         <div className="profil">
-          <img src={Ardi} alt="Ardi"/> {/* Using the imported image */}
+          <img src={Ardi} alt="Ardi" width="200px"/> {/* Using the imported image */}
           <h1 className="display-4">Ardi Dwi Saputra</h1>
           <p className="lead">Mahasiswa Informatika.</p>
         </div>
